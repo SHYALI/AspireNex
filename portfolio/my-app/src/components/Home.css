@@ -1,0 +1,211 @@
+
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+.par{
+    position: relative;
+    font-size: 12px;  
+    color: hsl(0, 0%, 68%);
+    font-weight: bold!important;
+    font-family: "Anonymous Pro", monospace!important;
+    letter-spacing: 8x!important;
+    overflow: hidden;
+    border-right: 7px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 716px; 
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color: hsl(0, 0%, 80%);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+.content{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 4rem;
+    padding: auto;
+    position: absolute;
+    width: 32rem;
+    height: 30rem;
+    color:white;
+    padding: 10px 10px 10px 10px;
+}
+.hd p {
+    font-size: 1.5rem!important;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0px!important;
+  }
+  
+  .hd p{
+    padding-bottom: 20px;
+    background: linear-gradient(to right, white 0, hsl(0, 70%, 34%) 10%, white 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+.hd p{
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.par{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.content{
+    margin-top: 10rem;
+    padding: auto;
+    position: absolute;
+    width: 18rem;
+    height: 27rem;
+    color:white;
+    padding: 10px 10px 10px 10px;
+}
+.par span{
+  display: none;
+}
+.lii{
+    padding-bottom: 25px;
+}
+@keyframes typewriter {
+    from {
+      width: 250px;
+    }
+    to {
+      width: 250px; 
+    }
+}
+.par{
+    letter-spacing: 0px!important;
+    white-space: wrap;
+}
+@media screen and (min-width: 500px) {
+    .content{
+        margin-top: 10rem;
+        padding: auto;
+        position: absolute;
+        width: 30rem;
+        height: 26rem;
+        color:white;
+        padding: 10px 10px 10px 10px;
+    }
+    .lii{
+        padding-bottom: 25px;
+    }
+    .par span{
+      display: inline;
+    }
+    @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 416px; 
+        }
+    }
+    .par{
+        letter-spacing: 1.5px!important;
+        white-space: nowrap;
+    }
+    .hd p{
+      font-size: 2.5rem!important;
+    }
+}
+@media screen and (min-width: 1350px) {
+    .content{
+        margin-top: 10rem;
+        padding: auto;
+        position: absolute;
+        width: 50%;    
+        height: 30rem;
+        color:white;
+    }
+    .lii{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    @keyframes typewriter {
+        from {
+          width: 0;
+        }
+        to {
+          width: 716px; 
+        }
+    }
+    .par{
+        letter-spacing: 5.6px!important;
+        white-space: nowrap;
+        font-size: 15px;
+    }
+}
+ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+i{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 10px #783edb;
+}
+
+i:hover{
+    color: white;
+    text-shadow:  0 0 10px #07e533, 0 0 20px #1fde25, 0 0 40px #2ce211;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.par1{
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;  
+    width: 8rem;
+    height: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    box-shadow: 0 0 5px #783edb;
+}
+.par1:hover{
+    color: white;
+    box-shadow: 0 0 10px #07e533, 0 0 20px #1fde25, 0 0 40px #2ce211;
+}
+.homediv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: -1;
+}
+.item{
+    margin: 10px ;
+}
+.lii{
+    width: 7rem;
+}
